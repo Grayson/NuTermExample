@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D79071F1399189900BF4A17 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D79071E1399189900BF4A17 /* Cocoa.framework */; };
+		1D7907291399189900BF4A17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D7907271399189900BF4A17 /* InfoPlist.strings */; };
+		1D79072C1399189900BF4A17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D79072B1399189900BF4A17 /* main.m */; };
+		1D79072F1399189900BF4A17 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1D79072D1399189900BF4A17 /* Credits.rtf */; };
+		1D7907321399189900BF4A17 /* NuTermAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7907311399189900BF4A17 /* NuTermAppDelegate.m */; };
+		1D7907351399189900BF4A17 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7907331399189900BF4A17 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D79071A1399189900BF4A17 /* NuTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D79071E1399189900BF4A17 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D7907211399189900BF4A17 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D7907221399189900BF4A17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D7907231399189900BF4A17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D7907261399189900BF4A17 /* NuTerm-Info.plist */ = {isa = PBXFileReference; path = "NuTerm-Info.plist"; sourceTree = "<group>"; };
+		1D7907281399189900BF4A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D79072A1399189900BF4A17 /* NuTerm-Prefix.pch */ = {isa = PBXFileReference; path = "NuTerm-Prefix.pch"; sourceTree = "<group>"; };
+		1D79072B1399189900BF4A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D79072E1399189900BF4A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1D7907301399189900BF4A17 /* NuTermAppDelegate.h */ = {isa = PBXFileReference; path = NuTermAppDelegate.h; sourceTree = "<group>"; };
+		1D7907311399189900BF4A17 /* NuTermAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NuTermAppDelegate.m; sourceTree = "<group>"; };
+		1D7907341399189900BF4A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7907171399189900BF4A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D79071F1399189900BF4A17 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D79070F1399189900BF4A17 = {
+			isa = PBXGroup;
+			children = (
+				1D7907241399189900BF4A17 /* NuTerm */,
+				1D79071D1399189900BF4A17 /* Frameworks */,
+				1D79071B1399189900BF4A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D79071B1399189900BF4A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D79071A1399189900BF4A17 /* NuTerm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D79071D1399189900BF4A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D79071E1399189900BF4A17 /* Cocoa.framework */,
+				1D7907201399189900BF4A17 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D7907201399189900BF4A17 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D7907211399189900BF4A17 /* AppKit.framework */,
+				1D7907221399189900BF4A17 /* CoreData.framework */,
+				1D7907231399189900BF4A17 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D7907241399189900BF4A17 /* NuTerm */ = {
+			isa = PBXGroup;
+			children = (
+				1D7907301399189900BF4A17 /* NuTermAppDelegate.h */,
+				1D7907311399189900BF4A17 /* NuTermAppDelegate.m */,
+				1D7907331399189900BF4A17 /* MainMenu.xib */,
+				1D7907251399189900BF4A17 /* Supporting Files */,
+			);
+			path = NuTerm;
+			sourceTree = "<group>";
+		};
+		1D7907251399189900BF4A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D7907261399189900BF4A17 /* NuTerm-Info.plist */,
+				1D7907271399189900BF4A17 /* InfoPlist.strings */,
+				1D79072A1399189900BF4A17 /* NuTerm-Prefix.pch */,
+				1D79072B1399189900BF4A17 /* main.m */,
+				1D79072D1399189900BF4A17 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D7907191399189900BF4A17 /* NuTerm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D7907381399189900BF4A17 /* Build configuration list for PBXNativeTarget "NuTerm" */;
+			buildPhases = (
+				1D7907161399189900BF4A17 /* Sources */,
+				1D7907171399189900BF4A17 /* Frameworks */,
+				1D7907181399189900BF4A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NuTerm;
+			productName = NuTerm;
+			productReference = 1D79071A1399189900BF4A17 /* NuTerm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D7907111399189900BF4A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "From Concentrate Software";
+			};
+			buildConfigurationList = 1D7907141399189900BF4A17 /* Build configuration list for PBXProject "NuTerm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D79070F1399189900BF4A17;
+			productRefGroup = 1D79071B1399189900BF4A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D7907191399189900BF4A17 /* NuTerm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D7907181399189900BF4A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7907291399189900BF4A17 /* InfoPlist.strings in Resources */,
+				1D79072F1399189900BF4A17 /* Credits.rtf in Resources */,
+				1D7907351399189900BF4A17 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D7907161399189900BF4A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D79072C1399189900BF4A17 /* main.m in Sources */,
+				1D7907321399189900BF4A17 /* NuTermAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D7907271399189900BF4A17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7907281399189900BF4A17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D79072D1399189900BF4A17 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D79072E1399189900BF4A17 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1D7907331399189900BF4A17 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D7907341399189900BF4A17 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D7907361399189900BF4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D7907371399189900BF4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D7907391399189900BF4A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NuTerm/NuTerm-Prefix.pch";
+				INFOPLIST_FILE = "NuTerm/NuTerm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D79073A1399189900BF4A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NuTerm/NuTerm-Prefix.pch";
+				INFOPLIST_FILE = "NuTerm/NuTerm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D7907141399189900BF4A17 /* Build configuration list for PBXProject "NuTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7907361399189900BF4A17 /* Debug */,
+				1D7907371399189900BF4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D7907381399189900BF4A17 /* Build configuration list for PBXNativeTarget "NuTerm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7907391399189900BF4A17 /* Debug */,
+				1D79073A1399189900BF4A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D7907111399189900BF4A17 /* Project object */;
+}
